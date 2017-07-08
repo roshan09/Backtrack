@@ -10,6 +10,7 @@
 */
 #include <bits/stdc++.h>
 using namespace std;
+
 #define N 4
 void PrintSolution(int arr[N][N])
 {
@@ -65,6 +66,7 @@ bool Plot(int arr[N][N],int j)
 }
 int main()
 {
+
 	int arr[N][N]  =  { {0, 0, 0, 0},
         {0, 0, 0, 0},
         {0, 0, 0, 0},
@@ -74,7 +76,7 @@ int main()
 	if(Plot(arr,0))
 		PrintSolution(arr);
 	else
-		cout<<"Not possible"<<endl;
+		cout<<"Solution Not possible"<<endl;
 
 	return 0;
 }
